@@ -13,9 +13,6 @@ void init(Queue *queue) {
     queue->rear = -1;
 }
 
-int is_empty(Queue *queue) {
-    return queue->front == -1;
-}
 
 int is_full(Queue *queue) {
     return queue->rear == MAX_SIZE - 1;
